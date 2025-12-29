@@ -18,7 +18,6 @@ function! s:ensure(repo)
   execute 'set runtimepath+=' . fnameescape(path)
 endfunction
 
-call s:ensure('tomasiser/vim-code-dark')
 call s:ensure('github/copilot.vim')
 call s:ensure('DanBradbury/copilot-chat.vim')
 colorscheme codedark
