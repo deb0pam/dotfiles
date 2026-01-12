@@ -3,14 +3,6 @@
   name=deb0pam
   email=debopamdas8@gmail.com
 
-[credential "https://github.com"]
-	helper = 
-  helper = !/home/x/.local/bin/gh auth git-credential
-
-[credential "https://gist.github.com"]
-	helper = 
-  helper = !/home/x/.local/bin/gh auth git-credential
-
 [core]
   compression=9
   whitespace=error
@@ -21,11 +13,11 @@
   pushNonFastForward=false
   statusHints=false
 
-[url "git@github.com:deb0pam/"]
-  insteadOf="x:"
+[url "https://github.com/deb0pam/"]
+  insteadOf="x/"
 
-[url "git@github.com:"]
-  insteadOf="gh:"
+[url "https://github.com/"]
+  insteadOf="gh/"
 
 [init]
   defaultBranch=main
