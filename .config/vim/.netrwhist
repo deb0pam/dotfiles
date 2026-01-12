@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/home/x/3d_portfolio/src/components'
+let g:netrw_dirhist_0='/home/x/3d_portfolio/src'
+let g:netrw_dirhist_9='/home/x/3d_portfolio'
+let g:netrw_dirhist_8='/home/x/apple_landing_page_clone/src/components'
+let g:netrw_dirhist_7='/home/x/apple_landing_page_clone/src/components/models'
+let g:netrw_dirhist_6='/home/x/apple_landing_page_clone/src/components'
+let g:netrw_dirhist_5='/home/x/apple_landing_page_clone/src/components/models'
+let g:netrw_dirhist_4='/home/x/apple_landing_page_clone/src/components'
+let g:netrw_dirhist_3='/home/x/apple_landing_page_clone/src'
+let g:netrw_dirhist_2='/home/x/apple_landing_page_clone'

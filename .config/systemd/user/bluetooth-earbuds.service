@@ -1,0 +1,11 @@
+[Unit]
+Description=Auto connect Bluetooth earbuds
+After=bluetooth.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/bluetoothctl connect 8B:9D:F3:08:07:93
+
+[Install]
+WantedBy=default.target
+

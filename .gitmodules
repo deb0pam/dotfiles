@@ -1,0 +1,3 @@
+[submodule ".config/suckless/dwm"]
+	path = .config/suckless/dwm
+	url = https://github.com/deb0pam/dwm
